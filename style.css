@@ -1,0 +1,68 @@
+body {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.navbar {
+    background: #003366;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navbar .nav-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: #0099ff;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    background: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.cards, .offers, .services-list {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card, .service-box, .offer-box, .form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
